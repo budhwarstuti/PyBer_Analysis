@@ -1,0 +1,35 @@
+Line Chart: if 2 charts in one
+
+x_label = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+plt.plot(x_label, data_frame_df, color="darkblue", marker="*", linewidth=2, label='label for chart')
+plt.plot(x_label, data_frame_df, color="darkblue", marker="*", linewidth=2, label='label for chart')
+
+plt.xlabel("")
+plt.ylabel("")
+
+plt.title("")
+plt.grid()
+
+plt.legend()
+plt.save
+
+pie charts
+plt.pie(list , explode=explode, labels=pies, colors=colors,
+        autopct="%1.1f%%", shadow=True, startangle=140)
+
+line charts
+plt.plot(x_axis, sin) for 1 chart
+plt.plot(x_axis, cos) for second chart
+
+scatter charts
+temp = []
+sales = []
+plt.scatter(temp, sales)  if lists
+OR
+plt.scatter(x_axis, list , marker="o", facecolors="red", edgecolors="black",
+            s=x_axis, alpha=0.75)
+
+
+
+plt.xlim(10, 26)
+plt.ylim(0,700)
